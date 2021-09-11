@@ -920,5 +920,34 @@ const app = Vue.createApp({
       }
     }
   }
+
+  
 });
 app.mount('#app');
+
+function playPopupVideo(video_embed_url) {
+  let popup_html = '<div class="popup-overlay">\n' +
+      '        <img src="https://nexgi-static.nexgi.com/uploads/2021/05/cancel.svg" alt="cancel video popup" class="cancel-video-popup cp" onclick="closePopupPlyr(this)">\n' +
+      '        <div class="plyr__video-embed" id="player_container">\n' +
+      '            <iframe\n' +
+      '                    width="560" height="315"\n' +
+      '                    src="' + video_embed_url + '?autoplay=1&modestbranding=1&playsinline=1&showinfo=0&rel=0&enablejsapi=1"\n' +
+      '                    allowfullscreen\n' +
+      '                    allowtransparency\n' +
+      '                    allow="autoplay"\n' +
+      '            ></iframe>\n' +
+      '        </div>\n' +
+      '    </div>';
+
+  $("body").find(".popup-overlay").remove();
+  $("body").append(popup_html);
+  const player = new Plyr('#player_container', {
+      title: 'Example Title',
+  });
+}
+
+function closePopupPlyr(that) {
+  $(that).parent('.popup-overlay').remove();
+}
+
+

@@ -5173,3 +5173,23 @@ html[dir="rtl"] .contact-section .section-content .contact-form .phone-number .f
 .big-header .lang-switcher{
   display: none;
 }
+.small-header .lang-switcher{
+  display: none;
+}
+
+/* about-us video section css */
+.wrapper-play-btn::after {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  content: "";
+  font-family: "FontAwesome";
+  height: 55px;
+  width: 55px;
+  background-image: url(assets/images/icons/play-button-1.svg);
+  transform: translate(-20%, -25%);
+  font-size: 4rem;
+  line-height: 1;
+  cursor: pointer;
+  color: #afafaf;
+}
