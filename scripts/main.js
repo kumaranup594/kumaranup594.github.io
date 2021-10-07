@@ -203,47 +203,47 @@ const app = Vue.createApp({
       // list of portfolio items to loop through it
       allPortfolioItems: [
         {
-          url: '#',
+          url: 'https://mekosha.com/',
           imgUrl: 'assets/images/portfolio/portfolio-1.png',
-          title: { en: 'Lorem Ipsum Dolor', ar: 'هنا عنوان المشروع' },
-          desc: { en: 'April 2021', ar: 'أبريل 2021' },
-          category: { slug: 'html', name: 'HTML' }
+          title: { en: 'Mekosha', ar: '' },
+          desc: { en: 'April 2018', ar: '' },
+          category: { slug: 'wordpress', name: 'Wordpress' }
         }, {
-          url: '#',
+          url: 'https://www.giggsmeat.com/',
           imgUrl: 'assets/images/portfolio/portfolio-2.png',
-          title: { en: 'Lorem Ipsum Dolor', ar: 'هنا عنوان المشروع' },
-          desc: { en: 'April 2021', ar: 'أبريل 2021' },
-          category: { slug: 'angular', name: 'Angular' }
+          title: { en: 'Giggsmeat', ar: '' },
+          desc: { en: 'May 2019', ar: '' },
+          category: { slug: 'wordpress', name: 'Wordpress' }
         }, {
-          url: '#',
+          url: 'https://www.fitnesscravers.com/',
           imgUrl: 'assets/images/portfolio/portfolio-3.png',
-          title: { en: 'Lorem Ipsum Dolor', ar: 'هنا عنوان المشروع' },
-          desc: { en: 'April 2021', ar: 'أبريل 2021' },
-          category: { slug: 'vue', name: 'Vue' }
+          title: { en: 'Fitness Cravers', ar: '' },
+          desc: { en: 'June 2018', ar: '' },
+          category: { slug: 'wordpress', name: 'Wordpress' }
         }, {
-          url: '#',
+          url: 'https://honeywellconnection.com/',
           imgUrl: 'assets/images/portfolio/portfolio-4.png',
-          title: { en: 'Lorem Ipsum Dolor', ar: 'هنا عنوان المشروع' },
-          desc: { en: 'April 2021', ar: 'أبريل 2021' },
-          category: { slug: 'html', name: 'HTML' }
+          title: { en: 'Honeywell Connection', ar: '' },
+          desc: { en: 'March 2019', ar: '' },
+          category: { slug: 'wordpress', name: 'Wordpress' }
         }, {
-          url: '#',
+          url: 'https://www.kcsshop.in/',
           imgUrl: 'assets/images/portfolio/portfolio-5.png',
-          title: { en: 'Lorem Ipsum Dolor', ar: 'هنا عنوان المشروع' },
-          desc: { en: 'April 2021', ar: 'أبريل 2021' },
-          category: { slug: 'angular', name: 'Angular' }
+          title: { en: 'KCS Kashmir Shawl Emporium', ar: '' },
+          desc: { en: 'June 2018', ar: '' },
+          category: { slug: 'wordpress', name: 'Wordpress' }
         }, {
-          url: '#',
+          url: 'https://couturiershome.com/',
           imgUrl: 'assets/images/portfolio/portfolio-6.png',
-          title: { en: 'Lorem Ipsum Dolor', ar: 'هنا عنوان المشروع' },
-          desc: { en: 'April 2021', ar: 'أبريل 2021' },
-          category: { slug: 'vue', name: 'Vue' }
+          title: { en: 'Couturiers Home', ar: '' },
+          desc: { en: 'August 2019', ar: '' },
+          category: { slug: 'wordpress', name: 'Wordpress' }
         }, {
-          url: '#',
+          url: 'https://www.auntfloh.com/',
           imgUrl: 'assets/images/portfolio/portfolio-7.png',
-          title: { en: 'Lorem Ipsum Dolor', ar: 'هنا عنوان المشروع' },
-          desc: { en: 'April 2021', ar: 'أبريل 2021' },
-          category: { slug: 'html', name: 'HTML' }
+          title: { en: 'AuntFloh', ar: '' },
+          desc: { en: 'January 2020', ar: '' },
+          category: { slug: 'laravel', name: 'Laravel' }
         }
       ].reverse(),
 

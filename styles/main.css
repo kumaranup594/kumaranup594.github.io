@@ -5177,6 +5177,10 @@ html[dir="rtl"] .contact-section .section-content .contact-form .phone-number .f
   display: none;
 }
 
+#portfolio .works-filter{
+  display: none;
+}
+
 /* about-us video section css */
 .wrapper-play-btn::after {
   position: absolute;
