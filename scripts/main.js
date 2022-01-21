@@ -942,7 +942,8 @@ function playPopupVideo(video_embed_url) {
   $("body").find(".popup-overlay").remove();
   $("body").append(popup_html);
   const player = new Plyr('#player_container', {
-      title: 'Example Title',
+      title: 'Intro Video',
+      autoplay: true
   });
 }
 
