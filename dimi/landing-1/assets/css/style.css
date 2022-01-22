@@ -2271,8 +2271,8 @@ About Area CSS
 }
 
 .about-image-warp {
-  background-image: url(../img/about/about-2.jpg);
-  background-position: center center;
+  background-image: url(../img/about/WHO.png);
+  background-position: center left;
   background-size: cover;
   background-repeat: no-repeat;
   height: 100%;
@@ -4723,7 +4723,6 @@ Overview Area CSS
 }
 
 .overview-content p {
-  width: 400px;
   font-size: 24px;
   font-weight: bold;
   text-transform: uppercase;
@@ -4774,12 +4773,20 @@ Page Banner CSS
   background-image: url(../img/page-banner/page-banner-2.jpg);
 }
 
+.page-banner-area.item-bgtruck {
+  background-image: url(../img/page-banner/6d60579a-53b4-4fad-9714-fa5ef0243f12.jpeg);
+}
+
 .page-banner-area.item-bg2 {
   background-image: url(../img/page-banner/page-banner-3.jpg);
 }
 
 .page-banner-area.item-bg3 {
   background-image: url(../img/page-banner/page-banner-4.jpg);
+}
+
+.page-banner-area.item-bg-contact {
+  background-image: url(../img/page-banner/8.jpg);
 }
 
 .page-banner-area.item-bg4 {
