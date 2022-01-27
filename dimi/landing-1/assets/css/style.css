@@ -78,7 +78,7 @@ a {
 }
 
 a:hover, a:focus {
-  color: linear-gradient(to right top, #fdb084, #ff9870, #ff7e62, #ff5f59, #ff3656);
+  color: #D48166;
   text-decoration: none;
 }
 
@@ -161,7 +161,7 @@ Default btn CSS
 .default-btn {
   display: inline-block;
   padding: 12px 35px;
-  color: #ffffff;
+  color: #D48166;
   border-radius: 10px;
   position: relative;
   overflow: hidden;
@@ -177,8 +177,9 @@ Default btn CSS
   width: 100%;
   height: 100%;
   z-index: -1;
-  background: -webkit-gradient(linear, left bottom, right top, from(#fdb084), color-stop(#ff9870), color-stop(#ff7e62), color-stop(#ff5f59), to(#ff3656));
-  background: linear-gradient(to right top, #fdb084, #ff9870, #ff7e62, #ff5f59, #ff3656);
+  background: #FFF;
+  border: 1px solid #D48166;
+  border-radius: 10px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -190,7 +191,8 @@ Default btn CSS
   left: 0;
   width: 100%;
   height: 100%;
-  background: #f64c67;
+  background: #d67c58;
+  border: transparent;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   opacity: 0;
@@ -207,6 +209,11 @@ Default btn CSS
   visibility: visible;
 }
 
+
+.bgE6E2DD{
+  background: #E6E2DD!important;
+}
+
 /*================================================
 Section Title CSS
 =================================================*/
@@ -216,7 +223,7 @@ Section Title CSS
 }
 
 .section-title span {
-  color: #fd9b5f;
+  color: #D48166;
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -230,7 +237,7 @@ Section Title CSS
   height: 4px;
   width: 85px;
   background: -webkit-gradient(linear, left bottom, right top, from(#fdb084), color-stop(#ff9870), color-stop(#ff7e62), color-stop(#ff5f59), to(#ff3656));
-  background: linear-gradient(to right top, #fdb084, #ff9870, #ff7e62, #ff5f59, #ff3656);
+  background: #D48166;
   position: relative;
   border-radius: 5px;
   overflow: hidden;
@@ -290,7 +297,7 @@ Preloader Area CSS
   height: 100%;
   z-index: 99999;
   background: -webkit-gradient(linear, left bottom, right top, from(#fdb084), color-stop(#ff9870), color-stop(#ff7e62), color-stop(#ff5f59), to(#ff3656));
-  background: linear-gradient(to right top, #fdb084, #ff9870, #ff7e62, #ff5f59, #ff3656);
+  background: #D48166;
   top: 0;
   left: 0;
 }
@@ -323,7 +330,7 @@ Preloader Area CSS
 .preloader .shadow {
   width: 100%;
   height: 5px;
-  background: #f64c67;
+  background: #D48166;
   opacity: 0.1;
   position: absolute;
   top: 59px;
@@ -471,7 +478,7 @@ Navbar Area CSS
 }
 
 .main-navbar .navbar .navbar-nav .nav-item a:hover, .main-navbar .navbar .navbar-nav .nav-item a:focus, .main-navbar .navbar .navbar-nav .nav-item a.active {
-  color: #f64c67;
+  color: #D48166;
 }
 
 .main-navbar .navbar .navbar-nav .nav-item:last-child {
@@ -483,7 +490,7 @@ Navbar Area CSS
 }
 
 .main-navbar .navbar .navbar-nav .nav-item:hover a, .main-navbar .navbar .navbar-nav .nav-item.active a {
-  color: #f64c67;
+  color: #D48166;
 }
 
 .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu {
@@ -530,7 +537,7 @@ Navbar Area CSS
 }
 
 .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li a:hover, .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li a:focus, .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li a.active {
-  color: #f64c67;
+  color: #D48166;
 }
 
 .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu {
@@ -547,7 +554,7 @@ Navbar Area CSS
 }
 
 .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:hover, .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:focus, .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a.active {
-  color: #f64c67;
+  color: #D48166;
 }
 
 .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu {
@@ -562,7 +569,7 @@ Navbar Area CSS
 }
 
 .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
-  color: #f64c67;
+  color: #D48166;
 }
 
 .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu {
@@ -577,7 +584,7 @@ Navbar Area CSS
 }
 
 .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
-  color: #f64c67;
+  color: #D48166;
 }
 
 .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu {
@@ -592,7 +599,7 @@ Navbar Area CSS
 }
 
 .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
-  color: #f64c67;
+  color: #D48166;
 }
 
 .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu {
@@ -607,7 +614,7 @@ Navbar Area CSS
 }
 
 .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
-  color: #f64c67;
+  color: #D48166;
 }
 
 .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu {
@@ -622,11 +629,11 @@ Navbar Area CSS
 }
 
 .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
-  color: #f64c67;
+  color: #D48166;
 }
 
 .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
-  color: #f64c67;
+  color: #D48166;
 }
 
 .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li:hover .dropdown-menu {
@@ -635,7 +642,7 @@ Navbar Area CSS
 }
 
 .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
-  color: #f64c67;
+  color: #D48166;
 }
 
 .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li:hover .dropdown-menu {
@@ -644,7 +651,7 @@ Navbar Area CSS
 }
 
 .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
-  color: #f64c67;
+  color: #D48166;
 }
 
 .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li:hover .dropdown-menu {
@@ -653,7 +660,7 @@ Navbar Area CSS
 }
 
 .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
-  color: #f64c67;
+  color: #D48166;
 }
 
 .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li:hover .dropdown-menu {
@@ -662,7 +669,7 @@ Navbar Area CSS
 }
 
 .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li.active a {
-  color: #f64c67;
+  color: #D48166;
 }
 
 .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li:hover .dropdown-menu {
@@ -671,7 +678,7 @@ Navbar Area CSS
 }
 
 .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li.active a {
-  color: #f64c67;
+  color: #D48166;
 }
 
 .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li:hover .dropdown-menu {
@@ -703,7 +710,7 @@ Navbar Area CSS
 }
 
 .main-navbar .navbar .others-options .option-item .cart-btn a:hover {
-  color: #f64c67;
+  color: #D48166;
   -webkit-transform: translateY(-5%);
           transform: translateY(-5%);
 }
@@ -717,7 +724,7 @@ Navbar Area CSS
   text-align: center;
   line-height: 18px;
   border-radius: 50%;
-  background: #f64c67;
+  background: #D48166;
   color: #ffffff;
   font-size: 14px;
   font-weight: 600;
@@ -732,7 +739,7 @@ Navbar Area CSS
 }
 
 .main-navbar .navbar .others-options .option-item .search-btn:hover {
-  color: #f64c67;
+  color: #D48166;
   -webkit-transform: translateY(-5%);
           transform: translateY(-5%);
 }
@@ -747,7 +754,7 @@ Navbar Area CSS
 }
 
 .main-navbar .navbar .others-options .option-item .close-btn:hover {
-  color: #f64c67;
+  color: #D48166;
   -webkit-transform: translateY(-5%);
           transform: translateY(-5%);
 }
@@ -811,7 +818,7 @@ Navbar Area CSS
 }
 
 .search-overlay.search-popup .search-form .search-input:focus {
-  border-color: linear-gradient(to right top, #fdb084, #ff9870, #ff7e62, #ff5f59, #ff3656);
+  border-color: #D48166;
 }
 
 .search-overlay.search-popup .search-form .search-button {
@@ -830,7 +837,7 @@ Navbar Area CSS
 }
 
 .search-overlay.search-popup .search-form .search-button:hover, .search-overlay.search-popup .search-form .search-button:focus {
-  color: linear-gradient(to right top, #fdb084, #ff9870, #ff7e62, #ff5f59, #ff3656);
+  color: #D48166;
 }
 
 .search-overlay.search-popup .search-form .search-button i {
@@ -873,7 +880,7 @@ Navbar Area CSS
 }
 
 .others-option-for-responsive .dot-menu:hover .inner .circle {
-  background-color: linear-gradient(to right top, #fdb084, #ff9870, #ff7e62, #ff5f59, #ff3656);
+  background-color: #D48166;
 }
 
 .others-option-for-responsive .container {
@@ -924,7 +931,7 @@ Navbar Area CSS
 }
 
 .others-option-for-responsive .option-inner .others-options .option-item .cart-btn a:hover {
-  color: #f64c67;
+  color: #D48166;
   -webkit-transform: translateY(-5%);
           transform: translateY(-5%);
 }
@@ -938,7 +945,7 @@ Navbar Area CSS
   text-align: center;
   line-height: 18px;
   border-radius: 50%;
-  background: #f64c67;
+  background: #D48166;
   color: #ffffff;
   font-size: 14px;
   font-weight: 600;
@@ -953,7 +960,7 @@ Navbar Area CSS
 }
 
 .others-option-for-responsive .option-inner .others-options .option-item .search-btn:hover {
-  color: #f64c67;
+  color: #D48166;
   -webkit-transform: translateY(-5%);
           transform: translateY(-5%);
 }
@@ -968,7 +975,7 @@ Navbar Area CSS
 }
 
 .others-option-for-responsive .option-inner .others-options .option-item .close-btn:hover {
-  color: #f64c67;
+  color: #D48166;
   -webkit-transform: translateY(-5%);
           transform: translateY(-5%);
 }
@@ -994,7 +1001,7 @@ Navbar Area CSS
     font-size: 15px;
   }
   .main-responsive-nav .main-responsive-menu.mean-container .mean-nav ul li a.active {
-    color: #f64c67;
+    color: #D48166;
   }
   .main-responsive-nav .main-responsive-menu.mean-container .mean-nav ul li a i {
     display: none;
@@ -1328,7 +1335,7 @@ Main Banner Area CSS
   background-color: transparent;
   -webkit-box-shadow: none;
           box-shadow: none;
-  border: 1px solid #f64c67;
+  border: 1px solid #D48166;
 }
 
 .banner-form .form-control::-webkit-input-placeholder {
@@ -1352,7 +1359,7 @@ Main Banner Area CSS
   right: 4px;
   top: 4px;
   background: -webkit-gradient(linear, left bottom, right top, from(#fdb084), color-stop(#ff9870), color-stop(#ff7e62), color-stop(#ff5f59), to(#ff3656));
-  background: linear-gradient(to right top, #fdb084, #ff9870, #ff7e62, #ff5f59, #ff3656);
+  background: #D48166;
   color: #ffffff;
   border: none;
   height: 62px;
@@ -1661,7 +1668,7 @@ Main Banner Area CSS
 Main Slider Area CSS
 =================================================*/
 .main-slider-item {
-  background-color: #fdf1ef;
+  background-color: #D48166;
   position: relative;
   z-index: 1;
 }
@@ -1677,9 +1684,21 @@ Main Slider Area CSS
   margin-left: auto;
 }
 
+.main-slider-content ul{
+  font-weight: 600;
+  color: #FFF;
+  list-style: none;
+  padding: 0;
+}
+
 .main-slider-content h1 {
   font-size: 60px;
   margin-bottom: 16px;
+  color: #fff!important;
+}
+
+.main-slider-content p{
+  color: #fff!important;
 }
 
 .main-slider-content .slider-btn {
@@ -1687,7 +1706,7 @@ Main Slider Area CSS
 }
 
 .main-slider-image {
-  background-image: url(../img/main-slider/main-slider-1.jpg);
+  background-image: url(../img/main-slider/6d60579a-53b4-4fad-9714-fa5ef0243f12.jpeg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1696,11 +1715,11 @@ Main Slider Area CSS
 }
 
 .main-slider-image.two {
-  background-image: url(../img/main-slider/main-slider-2.jpg);
+  background-image: url(../img/main-slider/6d60579a-53b4-4fad-9714-fa5ef0243f12.jpeg);
 }
 
 .main-slider-image.three {
-  background-image: url(../img/main-slider/main-slider-3.jpg);
+  background-image: url(../img/main-slider/8.jpg);
 }
 
 .home-wrapper-area {
@@ -1773,7 +1792,7 @@ Main Slider Area CSS
   -webkit-transition: 0.5s;
   transition: 0.5s;
   background-color: #ffffff;
-  color: #f64c67;
+  color: #D48166;
   border-radius: 50%;
   opacity: 1;
   visibility: hidden;
@@ -1840,7 +1859,7 @@ Features Area CSS
   height: 100%;
   z-index: -1;
   background: -webkit-gradient(linear, left bottom, right top, from(#fdb084), color-stop(#ff9870), color-stop(#ff7e62), color-stop(#ff5f59), to(#ff3656));
-  background: linear-gradient(to right top, #fdb084, #ff9870, #ff7e62, #ff5f59, #ff3656);
+  background: #D48166;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   opacity: 0;
@@ -1854,7 +1873,7 @@ Features Area CSS
 
 .single-features .icon i {
   font-size: 50px;
-  color: #f64c67;
+  color: #D48166;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   line-height: 1;
@@ -1950,7 +1969,7 @@ Features Area CSS
   width: 100%;
   height: 0;
   background: -webkit-gradient(linear, left bottom, right top, from(#fdb084), color-stop(#ff9870), color-stop(#ff7e62), color-stop(#ff5f59), to(#ff3656));
-  background: linear-gradient(to right top, #fdb084, #ff9870, #ff7e62, #ff5f59, #ff3656);
+  background: #D48166;
   z-index: -1;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -1963,7 +1982,7 @@ Features Area CSS
 
 .single-features-box .icon i {
   font-size: 30px;
-  color: #f64c67;
+  color: #D48166;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   line-height: 1;
@@ -1998,7 +2017,7 @@ Features Area CSS
 }
 
 .single-features-box:hover .icon i {
-  color: #f64c67;
+  color: #D48166;
 }
 
 .single-features-box:hover h3 a {
@@ -2026,7 +2045,7 @@ Features Area CSS
 }
 
 .features-inner-content span {
-  color: #fd9b5f;
+  color: #D48166;
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -2040,7 +2059,7 @@ Features Area CSS
   height: 4px;
   width: 85px;
   background: -webkit-gradient(linear, left bottom, right top, from(#fdb084), color-stop(#ff9870), color-stop(#ff7e62), color-stop(#ff5f59), to(#ff3656));
-  background: linear-gradient(to right top, #fdb084, #ff9870, #ff7e62, #ff5f59, #ff3656);
+  background: #D48166;
   position: relative;
   border-radius: 5px;
   overflow: hidden;
@@ -2115,7 +2134,7 @@ Features Area CSS
   width: 0;
   height: 100%;
   background: -webkit-gradient(linear, left bottom, right top, from(#fdb084), color-stop(#ff9870), color-stop(#ff7e62), color-stop(#ff5f59), to(#ff3656));
-  background: linear-gradient(to right top, #fdb084, #ff9870, #ff7e62, #ff5f59, #ff3656);
+  background: #D48166;
   z-index: -1;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -2147,7 +2166,7 @@ About Area CSS
 }
 
 .about-content span {
-  color: #fd9b5f;
+  color: #D48166;
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -2162,7 +2181,7 @@ About Area CSS
   z-index: 1;
   border-radius: 50%;
   background: -webkit-gradient(linear, left bottom, right top, from(#fdb084), color-stop(#ff9870), color-stop(#ff7e62), color-stop(#ff5f59), to(#ff3656));
-  background: linear-gradient(to right top, #fdb084, #ff9870, #ff7e62, #ff5f59, #ff3656);
+  background: #D48166;
   color: #ffffff;
   text-align: center;
 }
@@ -2176,7 +2195,7 @@ About Area CSS
   height: 4px;
   width: 85px;
   background: -webkit-gradient(linear, left bottom, right top, from(#fdb084), color-stop(#ff9870), color-stop(#ff7e62), color-stop(#ff5f59), to(#ff3656));
-  background: linear-gradient(to right top, #fdb084, #ff9870, #ff7e62, #ff5f59, #ff3656);
+  background: #D48166;
   position: relative;
   border-radius: 5px;
   overflow: hidden;
@@ -2245,7 +2264,7 @@ About Area CSS
   height: 30px;
   width: 30px;
   line-height: 30px;
-  background: #fd9b5f;
+  background: #D48166;
   color: #ffffff;
   text-align: center;
   font-size: 20px;
@@ -2267,7 +2286,7 @@ About Area CSS
 }
 
 .about-content .about-inner-content:hover .icon i {
-  background: #f64c67;
+  background: #D48166;
 }
 
 .about-image-warp {
@@ -2282,7 +2301,7 @@ About Area CSS
 }
 
 .about-image-warp.image-two {
-  background-image: url(../img/about/about-3.jpg);
+  background-image: url(../img/about/TRUCK\ FOR\ SALE_445x330.jpg);
 }
 
 .about-image-warp.image-three {
@@ -2295,7 +2314,7 @@ About Area CSS
   height: 60px;
   line-height: 70px;
   background: -webkit-gradient(linear, left bottom, right top, from(#fdb084), color-stop(#ff9870), color-stop(#ff7e62), color-stop(#ff5f59), to(#ff3656));
-  background: linear-gradient(to right top, #fdb084, #ff9870, #ff7e62, #ff5f59, #ff3656);
+  background: #D48166;
   border-radius: 50%;
   color: #ffffff;
   position: absolute;
@@ -2322,7 +2341,7 @@ About Area CSS
   bottom: 0;
   left: 0;
   border-radius: 50%;
-  border: 1px solid #f64c67;
+  border: 1px solid #D48166;
   -webkit-animation: ripple 1s linear 1s infinite;
           animation: ripple 1s linear 1s infinite;
 }
@@ -2337,14 +2356,14 @@ About Area CSS
   bottom: 0;
   left: 0;
   border-radius: 50%;
-  border: 1px solid #f64c67;
+  border: 1px solid #D48166;
   -webkit-animation: ripple 1s linear infinite;
           animation: ripple 1s linear infinite;
 }
 
 .about-image-warp .video-btn:hover, .about-image-warp .video-btn .video-content .video-btn:focus {
   background-color: #ffffff;
-  color: linear-gradient(to right top, #fdb084, #ff9870, #ff7e62, #ff5f59, #ff3656);
+  color: #D48166;
 }
 
 @-webkit-keyframes ripple {
@@ -2390,16 +2409,22 @@ Services Area CSS
   overflow: hidden;
 }
 
+.services-area .section-title span{
+  margin-top: 50px;
+  display: block;
+
+}
+
 .services-area.bg-fff5ee {
   background-color: #fff5ee;
 }
 
 .services-area.bg-fafafa {
-  background-color: #fafafa;
+  background: #e6e2dd !important;;
 }
 
 .services-area.bg-fafafa {
-  background-color: #fafafa;
+  background-color: #E6E2DD;
 }
 
 .services-area.bg-0f051e {
@@ -2436,7 +2461,7 @@ Services Area CSS
   -webkit-transition: 0.5s;
   transition: 0.5s;
   background: -webkit-gradient(linear, left bottom, right top, from(#fdb084), color-stop(#ff9870), color-stop(#ff7e62), color-stop(#ff5f59), to(#ff3656));
-  background: linear-gradient(to right top, #fdb084, #ff9870, #ff7e62, #ff5f59, #ff3656);
+  background: #D48166;
   -webkit-transform: rotate(-14deg);
           transform: rotate(-14deg);
 }
@@ -2455,7 +2480,7 @@ Services Area CSS
 }
 
 .single-services .services-btn {
-  color: #f64c67;
+  color: #D48166;
   font-weight: 500;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -2476,7 +2501,7 @@ Services Area CSS
 }
 
 .single-services:hover h3 a {
-  color: #f64c67;
+  color: #D48166;
 }
 
 .single-services .icon {
@@ -2489,7 +2514,7 @@ Services Area CSS
   width: 80px;
   line-height: 80px;
   background: -webkit-gradient(linear, left bottom, right top, from(#fdb084), color-stop(#ff9870), color-stop(#ff7e62), color-stop(#ff5f59), to(#ff3656));
-  background: linear-gradient(to right top, #fdb084, #ff9870, #ff7e62, #ff5f59, #ff3656);
+  background: #D48166;
   color: #ffffff;
   font-size: 45px;
   border-radius: 50px;
@@ -2542,7 +2567,7 @@ Services Area CSS
   width: 100%;
   height: 0;
   background: -webkit-gradient(linear, left bottom, right top, from(#fdb084), color-stop(#ff9870), color-stop(#ff7e62), color-stop(#ff5f59), to(#ff3656));
-  background: linear-gradient(to right top, #fdb084, #ff9870, #ff7e62, #ff5f59, #ff3656);
+  background: #D48166;
   z-index: -1;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -2592,7 +2617,7 @@ Services Area CSS
   -webkit-transition: 0.5s;
   transition: 0.5s;
   background: -webkit-gradient(linear, left bottom, right top, from(#fdb084), color-stop(#ff9870), color-stop(#ff7e62), color-stop(#ff5f59), to(#ff3656));
-  background: linear-gradient(to right top, #fdb084, #ff9870, #ff7e62, #ff5f59, #ff3656);
+  background: #D48166;
   -webkit-transform: rotate(-7deg);
           transform: rotate(-7deg);
 }
@@ -2609,7 +2634,7 @@ Services Area CSS
   width: 120px;
   line-height: 120px;
   background: -webkit-gradient(linear, left bottom, right top, from(#fdb084), color-stop(#ff9870), color-stop(#ff7e62), color-stop(#ff5f59), to(#ff3656));
-  background: linear-gradient(to right top, #fdb084, #ff9870, #ff7e62, #ff5f59, #ff3656);
+  background: #D48166;
   color: #ffffff;
   font-size: 45px;
   border-radius: 50px;
@@ -2627,7 +2652,7 @@ Services Area CSS
 }
 
 .single-services-box .services-btn {
-  color: #f64c67;
+  color: #D48166;
   font-weight: 500;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -2648,7 +2673,7 @@ Services Area CSS
 }
 
 .single-services-box:hover h3 a {
-  color: #f64c67;
+  color: #D48166;
 }
 
 .single-services-box:hover .icon {
@@ -2767,7 +2792,7 @@ Digital Experience Area CSS
   height: 100%;
   z-index: -1;
   background: -webkit-gradient(linear, left bottom, right top, from(#fdb084), color-stop(#ff9870), color-stop(#ff7e62), color-stop(#ff5f59), to(#ff3656));
-  background: linear-gradient(to right top, #fdb084, #ff9870, #ff7e62, #ff5f59, #ff3656);
+  background: #D48166;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   border-radius: 5px;
@@ -2784,7 +2809,7 @@ Digital Experience Area CSS
   height: 100%;
   z-index: -1;
   background: -webkit-gradient(linear, left bottom, right top, from(#fdb084), color-stop(#ff9870), color-stop(#ff7e62), color-stop(#ff5f59), to(#ff3656));
-  background: linear-gradient(to right top, #fdb084, #ff9870, #ff7e62, #ff5f59, #ff3656);
+  background: #D48166;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   border-radius: 5px;
@@ -2801,7 +2826,7 @@ Digital Experience Area CSS
   display: block;
   font-size: 35px;
   margin-bottom: 8px;
-  color: linear-gradient(to right top, #fdb084, #ff9870, #ff7e62, #ff5f59, #ff3656);
+  color: #D48166;
 }
 
 .digital-experience-tab .tabs li.current a, .digital-experience-tab .tabs li:hover a {
@@ -2846,7 +2871,7 @@ Digital Experience Area CSS
   font-size: 40px;
   font-weight: 800;
   margin-bottom: 12px;
-  color: #f64c67;
+  color: #D48166;
 }
 
 .digital-experience-tab .tab_content .tabs_item .digital-experience-content .experience-inner-content ul {
@@ -2878,7 +2903,7 @@ Digital Experience Area CSS
   height: 30px;
   width: 30px;
   line-height: 30px;
-  background: #fd9b5f;
+  background: #D48166;
   color: #ffffff;
   text-align: center;
   font-size: 20px;
@@ -2895,7 +2920,7 @@ Digital Experience Area CSS
   height: 20px;
   width: 20px;
   line-height: 20px;
-  background: #fd9b5f;
+  background: #D48166;
   color: #ffffff;
   text-align: center;
   font-size: 10px;
@@ -2913,7 +2938,7 @@ Digital Experience Area CSS
 }
 
 .digital-experience-tab .tab_content .tabs_item .digital-experience-content .experience-inner-content:hover .icon i {
-  background: #f64c67;
+  background: #D48166;
 }
 
 .digital-experience-tab .tab_content .tabs_item .digital-experience-image {
@@ -2944,7 +2969,7 @@ Fun Facts Area CSS
   height: 100%;
   z-index: -1;
   background: -webkit-gradient(linear, left bottom, right top, from(#fdb084), color-stop(#ff9870), color-stop(#ff7e62), color-stop(#ff5f59), to(#ff3656));
-  background: linear-gradient(to right top, #fdb084, #ff9870, #ff7e62, #ff5f59, #ff3656);
+  background: #D48166;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   opacity: 0;
@@ -2980,7 +3005,7 @@ Fun Facts Area CSS
   line-height: 70px;
   text-align: center;
   background-color: #fbe4d4;
-  color: #f64c67;
+  color: #D48166;
   font-size: 30px;
   border-radius: 50px;
   -webkit-transition: 0.5s;
@@ -3002,7 +3027,7 @@ Fun Facts Area CSS
 
 .single-fun-fact:hover .icon i {
   background-color: #ffffff;
-  color: #f64c67;
+  color: #D48166;
 }
 
 .single-fun-fact-box {
@@ -3026,7 +3051,7 @@ Fun Facts Area CSS
   width: 100%;
   height: 0;
   background: -webkit-gradient(linear, left bottom, right top, from(#fdb084), color-stop(#ff9870), color-stop(#ff7e62), color-stop(#ff5f59), to(#ff3656));
-  background: linear-gradient(to right top, #fdb084, #ff9870, #ff7e62, #ff5f59, #ff3656);
+  background: #D48166;
   z-index: -1;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -3058,7 +3083,7 @@ Fun Facts Area CSS
   line-height: 70px;
   text-align: center;
   background-color: #fbe4d4;
-  color: #f64c67;
+  color: #D48166;
   font-size: 30px;
   border-radius: 50px;
   -webkit-transition: 0.5s;
@@ -3079,7 +3104,7 @@ Fun Facts Area CSS
 
 .single-fun-fact-box:hover .icon i {
   background-color: #ffffff;
-  color: #f64c67;
+  color: #D48166;
 }
 
 /*================================================
@@ -3120,7 +3145,7 @@ Portfolio Area CSS
   width: 100%;
   height: 100%;
   background: -webkit-gradient(linear, left bottom, right top, from(#fdb084), color-stop(#ff9870), color-stop(#ff7e62), color-stop(#ff5f59), to(#ff3656));
-  background: linear-gradient(to right top, #fdb084, #ff9870, #ff7e62, #ff5f59, #ff3656);
+  background: #D48166;
   opacity: 0;
   visibility: hidden;
   -webkit-transition: 0.5s;
@@ -3149,7 +3174,7 @@ Portfolio Area CSS
   width: 35px;
   line-height: 38px;
   background-color: #ffffff;
-  color: #f64c67;
+  color: #D48166;
   border-radius: 50px;
   font-size: 22px;
   -webkit-transition: 0.5s;
@@ -3233,7 +3258,7 @@ Portfolio Area CSS
   width: 100%;
   height: 0;
   background: -webkit-gradient(linear, left bottom, right top, from(#fdb084), color-stop(#ff9870), color-stop(#ff7e62), color-stop(#ff5f59), to(#ff3656));
-  background: linear-gradient(to right top, #fdb084, #ff9870, #ff7e62, #ff5f59, #ff3656);
+  background: #D48166;
   z-index: -1;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -3263,7 +3288,7 @@ Portfolio Area CSS
   -webkit-transition: 0.5s;
   transition: 0.5s;
   border-radius: 50%;
-  border: 1px solid #f64c67;
+  border: 1px solid #D48166;
   position: relative;
   margin-top: 0;
   margin-bottom: 0;
@@ -3277,7 +3302,7 @@ Portfolio Area CSS
   right: 0;
   bottom: 0;
   background: -webkit-gradient(linear, left bottom, right top, from(#fdb084), color-stop(#ff9870), color-stop(#ff7e62), color-stop(#ff5f59), to(#ff3656));
-  background: linear-gradient(to right top, #fdb084, #ff9870, #ff7e62, #ff5f59, #ff3656);
+  background: #D48166;
   border-radius: 50%;
   margin: 4px;
   opacity: 0;
@@ -3325,8 +3350,8 @@ Testimonial Area CSS
   content: "";
   height: 90%;
   width: 100%;
-  border-left: 30px solid #fd9b5f;
-  border-bottom: 30px solid #fd9b5f;
+  border-left: 30px solid #D48166;
+  border-bottom: 30px solid #D48166;
   left: 0;
   bottom: 0;
 }
@@ -3371,7 +3396,7 @@ Testimonial Area CSS
 }
 
 .testimonial-content span {
-  color: #fd9b5f;
+  color: #D48166;
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -3386,7 +3411,7 @@ Testimonial Area CSS
   height: 4px;
   width: 85px;
   background: -webkit-gradient(linear, left bottom, right top, from(#fdb084), color-stop(#ff9870), color-stop(#ff7e62), color-stop(#ff5f59), to(#ff3656));
-  background: linear-gradient(to right top, #fdb084, #ff9870, #ff7e62, #ff5f59, #ff3656);
+  background: #D48166;
   position: relative;
   border-radius: 5px;
   overflow: hidden;
@@ -3430,7 +3455,7 @@ Testimonial Area CSS
   z-index: 1;
   border-radius: 50%;
   background: -webkit-gradient(linear, left bottom, right top, from(#fdb084), color-stop(#ff9870), color-stop(#ff7e62), color-stop(#ff5f59), to(#ff3656));
-  background: linear-gradient(to right top, #fdb084, #ff9870, #ff7e62, #ff5f59, #ff3656);
+  background: #D48166;
   color: #ffffff;
   text-align: center;
 }
@@ -3477,7 +3502,7 @@ Testimonial Area CSS
   line-height: 52px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
-  background: #f64c67;
+  background: #D48166;
   color: #ffffff;
   border-radius: 50%;
   opacity: 0;
@@ -3553,7 +3578,7 @@ Blog Area CSS
 }
 
 .single-blog .content span {
-  color: #f64c67;
+  color: #D48166;
   font-weight: bold;
 }
 
@@ -3572,7 +3597,7 @@ Blog Area CSS
 
 .single-blog .content .blog-btn {
   font-weight: 600;
-  color: #f64c67;
+  color: #D48166;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -3651,7 +3676,7 @@ Team Area CSS
   text-align: center;
   position: relative;
   font-size: 22px;
-  color: linear-gradient(to right top, #fdb084, #ff9870, #ff7e62, #ff5f59, #ff3656);
+  color: #D48166;
   border-radius: 30px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -3670,7 +3695,7 @@ Team Area CSS
 
 .single-team .image .social li a:hover {
   color: #ffffff;
-  background: #f64c67;
+  background: #D48166;
 }
 
 .single-team .image .social li:nth-child(1) {
@@ -3733,7 +3758,7 @@ Team Area CSS
   width: 100%;
   height: 0;
   background: -webkit-gradient(linear, left bottom, right top, from(#fdb084), color-stop(#ff9870), color-stop(#ff7e62), color-stop(#ff5f59), to(#ff3656));
-  background: linear-gradient(to right top, #fdb084, #ff9870, #ff7e62, #ff5f59, #ff3656);
+  background: #D48166;
   z-index: -1;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -3766,7 +3791,7 @@ Team Area CSS
   -webkit-transition: 0.5s;
   transition: 0.5s;
   border-radius: 50%;
-  border: 1px solid #f64c67;
+  border: 1px solid #D48166;
   position: relative;
   margin-top: 0;
   margin-bottom: 0;
@@ -3780,7 +3805,7 @@ Team Area CSS
   right: 0;
   bottom: 0;
   background: -webkit-gradient(linear, left bottom, right top, from(#fdb084), color-stop(#ff9870), color-stop(#ff7e62), color-stop(#ff5f59), to(#ff3656));
-  background: linear-gradient(to right top, #fdb084, #ff9870, #ff7e62, #ff5f59, #ff3656);
+  background: #D48166;
   border-radius: 50%;
   margin: 4px;
   opacity: 0;
@@ -3866,7 +3891,7 @@ Team Area CSS
 
 .single-team-box .image .social li a:hover {
   color: #ffffff;
-  background-color: #f64c67;
+  background-color: #D48166;
 }
 
 .single-team-box .image .social li:nth-child(1) {
@@ -3907,7 +3932,7 @@ Team Area CSS
 
 .single-team-box .content span {
   display: block;
-  color: #f64c67;
+  color: #D48166;
   font-size: 14px;
   margin-top: 6px;
 }
@@ -3955,7 +3980,7 @@ Pricing Area CSS
   width: 0;
   height: 100%;
   background: -webkit-gradient(linear, left bottom, right top, from(#fdb084), color-stop(#ff9870), color-stop(#ff7e62), color-stop(#ff5f59), to(#ff3656));
-  background: linear-gradient(to right top, #fdb084, #ff9870, #ff7e62, #ff5f59, #ff3656);
+  background: #D48166;
   z-index: -1;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -3980,7 +4005,7 @@ Pricing Area CSS
 .single-pricing-box .price {
   font-size: 36px;
   font-weight: bold;
-  color: #f64c67;
+  color: #D48166;
   margin-bottom: 30px;
   line-height: 1;
   -webkit-transition: 0.5s;
@@ -4017,7 +4042,7 @@ Pricing Area CSS
 
 .single-pricing-box .pricing-features li i {
   margin-right: 5px;
-  color: #fd9b5f;
+  color: #D48166;
   font-size: 15px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -4071,7 +4096,7 @@ Pricing Area CSS
 
 .single-pricing-box:hover .pricing-btn .default-btn {
   background-color: #ffffff;
-  color: #f64c67;
+  color: #D48166;
 }
 
 .single-pricing-box:hover .pricing-shape {
@@ -4091,7 +4116,7 @@ Pricing Area CSS
   display: inline-block;
   position: relative;
   border-radius: 35px;
-  border: 1px solid #f64c67;
+  border: 1px solid #D48166;
   margin-bottom: 40px;
 }
 
@@ -4110,20 +4135,19 @@ Pricing Area CSS
 
 .pricing-tab .tabs li a:hover {
   color: #ffffff;
-  background-color: #f64c67;
+  background-color: #D48166;
 }
 
 .pricing-tab .tabs li.current a {
   color: #ffffff;
-  background-color: #f64c67;
+  background-color: #D48166;
 }
 
 /*================================================
 Industries Area CSS
 =================================================*/
 .industries-area {
-  background: -webkit-gradient(linear, left bottom, right top, from(#ffbac3), color-stop(#ffc4c3), color-stop(#ffcec5), color-stop(#ffd7ca), to(#fee1d2));
-  background: linear-gradient(to right top, #ffbac3, #ffc4c3, #ffcec5, #ffd7ca, #fee1d2);
+  background: #E6E2DD;
 }
 
 .single-industries-box {
@@ -4148,7 +4172,7 @@ Industries Area CSS
   width: 0;
   height: 100%;
   background: -webkit-gradient(linear, left bottom, right top, from(#fdb084), color-stop(#ff9870), color-stop(#ff7e62), color-stop(#ff5f59), to(#ff3656));
-  background: linear-gradient(to right top, #fdb084, #ff9870, #ff7e62, #ff5f59, #ff3656);
+  background: #D48166;
   z-index: -1;
   content: '';
   -webkit-transition: 0.5s;
@@ -4161,7 +4185,7 @@ Industries Area CSS
   top: 50%;
   -webkit-transition: 0.5s;
   transition: 0.5s;
-  color: #ffa6b3;
+  color: #D48166;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   font-size: 50px;
@@ -4214,7 +4238,7 @@ Industries Area CSS
 
 .campaing-area {
   background: -webkit-gradient(linear, left bottom, right top, from(#ffbac3), color-stop(#ffc4c3), color-stop(#ffcec5), color-stop(#ffd7ca), to(#fee1d2));
-  background: linear-gradient(to right top, #ffbac3, #ffc4c3, #ffcec5, #ffd7ca, #fee1d2);
+  background: #E6E2DD;
 }
 
 .campaing-area .col-12{
@@ -4224,14 +4248,14 @@ Industries Area CSS
 }
 
 .campaing-area .col-12 .default-btn{
-  background-color: #f64c67;
-  border: 1px solid #f64c67;
+  background-color: #D48166;
+  border: 1px solid #D48166;
   margin-top: 20px;
 }
 
 .campaing-area .col-12 .default-btn:hover{
   background-color: transparent;
-  border: 1px solid #f64c67;
+  border: 1px solid #D48166;
   }
 
 
@@ -4273,7 +4297,7 @@ Client Area CSS
 
 .client-adver .client-item p {
   font-size: 16px;
-  color: #6b6b84;
+  color: #6b6b84!important;
   max-width: 675px;
   margin: auto;
   font-weight: 600;
@@ -4299,7 +4323,7 @@ Client Area CSS
 .client-adver .client-item .client-info h3 {
   font-size: 25px;
   margin-bottom: 10px;
-  color: #f64c67;
+  color: #D48166;
 }
 
 .client-adver .client-item .client-info span {
@@ -4336,7 +4360,7 @@ Client Area CSS
 .client-slider .client-item .client-info h3 {
   font-size: 25px;
   margin-bottom: 10px;
-  color: #f64c67;
+  color: #D48166;
 }
 
 .client-slider .client-item .client-info span {
@@ -4360,7 +4384,7 @@ Client Area CSS
   line-height: 52px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
-  background: #f64c67;
+  background: #D48166;
   color: #ffffff;
   border-radius: 50%;
 }
@@ -4421,12 +4445,12 @@ Subscribe Area CSS
   z-index: -1;
   height: 100%;
   background: -webkit-gradient(linear, left bottom, right top, from(#fdb084), color-stop(#ff9870), color-stop(#ff7e62), color-stop(#ff5f59), to(#ff3656));
-  background: linear-gradient(to right top, #fdb084, #ff9870, #ff7e62, #ff5f59, #ff3656);
+  background: #D48166;
   opacity: 0.9;
 }
 
 .subscribe-area.clients-rev::before {
-  background: #fafafa;
+  background: #E6E2DD;
 }
 
 
@@ -4477,7 +4501,7 @@ Subscribe Area CSS
   right: 5px;
   top: 5px;
   background: -webkit-gradient(linear, left bottom, right top, from(#fdb084), color-stop(#ff9870), color-stop(#ff7e62), color-stop(#ff5f59), to(#ff3656));
-  background: linear-gradient(to right top, #fdb084, #ff9870, #ff7e62, #ff5f59, #ff3656);
+  background: #D48166;
   color: #ffffff;
   border: none;
   height: 55px;
@@ -4506,7 +4530,7 @@ Subscribe Area CSS
   z-index: 1;
   border-radius: 50%;
   background: -webkit-gradient(linear, left bottom, right top, from(#fdb084), color-stop(#ff9870), color-stop(#ff7e62), color-stop(#ff5f59), to(#ff3656));
-  background: linear-gradient(to right top, #fdb084, #ff9870, #ff7e62, #ff5f59, #ff3656);
+  background: #D48166;
   color: #ffffff;
   text-align: center;
   margin: 40px 0 25px;
@@ -4515,11 +4539,11 @@ Subscribe Area CSS
 .clients-rev {
   position: relative;
   z-index: 1;
-  background: #fafafa;
+  background: #E6E2DD;
 }
 
 .subscribe-area.clients-rev::before {
-  background: #fafafa;
+  background: #E6E2DD;
 }
 
 .clients-rev h2 {
@@ -4534,7 +4558,7 @@ Subscribe Area CSS
 
 .clients-rev span{
   font-size: 14px;
-  color: #fd9b5f;
+  color: #D48166;
   text-transform: uppercase;
 }
 
@@ -4554,12 +4578,10 @@ Quote Area CSS
 }
 
 .quote-area.home{
-  background-color: #fafafa;
+  background-color: #E6E2DD;
 }
 
-.quote-area.brand-nl{
-  background: linear-gradient(to right top, #ffbac3, #ffc4c3, #ffcec5, #ffd7ca, #fee1d2);
-}
+
 
 
 .quote-area .container .row .col-12 span{
@@ -4648,7 +4670,7 @@ Quote Area CSS
 }
 
 .quote-form .nice-select .list .option:hover {
-  background: #f64c67 !important;
+  background: #D48166 !important;
   color: #ffffff;
 }
 
@@ -4660,7 +4682,7 @@ Quote Area CSS
 .quote-form .nice-select::after {
   height: 8px;
   width: 8px;
-  border-color: #fd9b5f;
+  border-color: #D48166;
   right: 5px;
 }
 
@@ -4672,7 +4694,7 @@ Quote Area CSS
   display: block;
   padding: 12px;
   width: 100%;
-  background-color: #f64c67;
+  background-color: #D48166;
   border: none;
   cursor: pointer;
   -webkit-transition: 0.5s;
@@ -4680,7 +4702,7 @@ Quote Area CSS
 }
 
 .quote-form .quote-btn .default-btn:hover {
-  background-color: #fd9b5f;
+  background-color: #D48166;
 }
 
 .quote-shape .shape-1 {
@@ -4705,13 +4727,13 @@ Quote Area CSS
 Overview Area CSS
 =================================================*/
 .overview-area {
-  background-color: #fafafa;
+  background-color: #E6E2DD;
   position: relative;
   z-index: 1;
 }
 
 .overview-content span {
-  color: #fd9b5f;
+  color: #D48166;
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -4809,7 +4831,7 @@ Page Banner CSS
 }
 
 .page-banner-content.contact h2 span{
-  color: #f64c67;
+  color: #D48166;
 }
 
 .home-banner-content h1 {
@@ -4830,7 +4852,7 @@ Page Banner CSS
   display: inline-block;
   margin-left: 15px;
   font-weight: 600;
-  color: #f64c67;
+  color: #D48166;
   position: relative;
 }
 
@@ -4842,7 +4864,7 @@ Page Banner CSS
   height: 12px;
   width: 1px;
   background: -webkit-gradient(linear, left bottom, right top, from(#fdb084), color-stop(#ff9870), color-stop(#ff7e62), color-stop(#ff5f59), to(#ff3656));
-  background: linear-gradient(to right top, #fdb084, #ff9870, #ff7e62, #ff5f59, #ff3656);
+  background: #D48166;
 }
 
 .page-banner-content ul li:first-child {
@@ -4862,7 +4884,7 @@ Page Banner CSS
 FAQ Area CSS
 =================================================*/
 .faq-area {
-  background-color: #fafafa;
+  background-color: #E6E2DD;
 }
 
 .faq-accordion .accordion {
@@ -4905,14 +4927,14 @@ FAQ Area CSS
 
 .faq-accordion .accordion .accordion-title.active i::before {
   content: "\eace";
-  color: #f64c67;
+  color: #D48166;
 }
 
 .faq-accordion .accordion .accordion-content {
   display: none;
   position: relative;
   padding: 18px 20px;
-  border-top: 1px solid #f64c67;
+  border-top: 1px solid #D48166;
   color: #6b6b84;
 }
 
@@ -4941,7 +4963,7 @@ FAQ Area CSS
 }
 
 .faq-contact-form #contactForm .form-group .form-control:focus {
-  border-color: #f64c67;
+  border-color: #D48166;
 }
 
 .faq-contact-form #contactForm .form-group textarea.form-control {
@@ -5019,7 +5041,7 @@ Login Area CSS
 }
 
 .login-form form .form-group .form-control:focus {
-  border-color: #f64c67;
+  border-color: #D48166;
 }
 
 .login-form form .lost-your-password {
@@ -5055,7 +5077,7 @@ Login Area CSS
   transition: 0.5s;
   bottom: 0;
   content: '';
-  background-color: #f64c67;
+  background-color: #D48166;
 }
 
 .login-form form .lost-your-password a:hover::before {
@@ -5134,7 +5156,7 @@ Register Area CSS
 }
 
 .register-form form .form-group .form-control:focus {
-  border-color: #f64c67;
+  border-color: #D48166;
 }
 
 .register-form form .description {
@@ -5191,7 +5213,7 @@ Forgot Password CSS
 }
 
 .forgot-password-form form .form-control:focus {
-  border-color: #f64c67;
+  border-color: #D48166;
   outline: 0;
   -webkit-box-shadow: none;
           box-shadow: none;
@@ -5307,7 +5329,7 @@ Contact Info Area CSS
   width: 100%;
   height: 0;
   background: -webkit-gradient(linear, left bottom, right top, from(#fdb084), color-stop(#ff9870), color-stop(#ff7e62), color-stop(#ff5f59), to(#ff3656));
-  background: linear-gradient(to right top, #fdb084, #ff9870, #ff7e62, #ff5f59, #ff3656);
+  background: #D48166;
   z-index: -1;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -5322,7 +5344,7 @@ Contact Info Area CSS
   background: #f5f5f5;
   border-radius: 50%;
   font-size: 35px;
-  color: #f64c67;
+  color: #D48166;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   margin-bottom: 12px;
@@ -5358,7 +5380,7 @@ Contact Info Area CSS
 }
 
 .contact-info-box p a:hover {
-  color: linear-gradient(to right top, #fdb084, #ff9870, #ff7e62, #ff5f59, #ff3656);
+  color: #D48166;
 }
 
 .contact-info-box p:last-child {
@@ -5412,7 +5434,7 @@ Contact Area CSS
 .contact-form .form-group .form-control:focus {
   outline: 0;
   background-color: #ffffff;
-  border-color: #f64c67;
+  border-color: #D48166;
   -webkit-box-shadow: none;
           box-shadow: none;
 }
@@ -5479,7 +5501,7 @@ Contact Area CSS
 .contact-form-inner .form-group .form-control:focus {
   outline: 0;
   background-color: #ffffff;
-  border-color: #f64c67;
+  border-color: #D48166;
   -webkit-box-shadow: none;
           box-shadow: none;
 }
@@ -5535,11 +5557,11 @@ Contact Area CSS
 
 .general-contact-info .contact-info-content h2 a {
   display: inline-block;
-  color: #f64c67;
+  color: #D48166;
 }
 
 .general-contact-info .contact-info-content h2 a:hover {
-  color: #fd9b5f;
+  color: #D48166;
 }
 
 .general-contact-info .contact-info-content h2 span {
@@ -5579,8 +5601,8 @@ Contact Area CSS
 
 .general-contact-info .contact-info-content .social li a:hover {
   color: #ffffff;
-  border-color: #f64c67;
-  background-color: #f64c67;
+  border-color: #D48166;
+  background-color: #D48166;
 }
 
 
@@ -5623,7 +5645,7 @@ Contact Area CSS
   width: 0;
   height: 100%;
   background: -webkit-gradient(linear, left bottom, right top, from(#fdb084), color-stop(#ff9870), color-stop(#ff7e62), color-stop(#ff5f59), to(#ff3656));
-  background: linear-gradient(to right top, #fdb084, #ff9870, #ff7e62, #ff5f59, #ff3656);
+  background: #D48166;
   z-index: -1;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -5685,7 +5707,7 @@ Services Details Area CSS
 }
 
 .services-details-desc .services-details-features .features-list li i {
-  color: #f64c67;
+  color: #D48166;
   position: absolute;
   left: 0;
   top: 8px;
@@ -5755,14 +5777,14 @@ Services Details Area CSS
 
 .services-details-desc .services-details-faq .accordion .accordion-title.active i::before {
   content: "\eace";
-  color: #f64c67;
+  color: #D48166;
 }
 
 .services-details-desc .services-details-faq .accordion .accordion-content {
   display: none;
   position: relative;
   padding: 18px 20px;
-  border-top: 1px solid #f64c67;
+  border-top: 1px solid #D48166;
   color: #6b6b84;
 }
 
@@ -5789,8 +5811,8 @@ Services Details Area CSS
 }
 
 .services-details-information .services-list li a:hover, .services-details-information .services-list li a.active {
-  background-color: #f64c67;
-  border-color: #f64c67;
+  background-color: #D48166;
+  border-color: #D48166;
   color: #ffffff;
 }
 
@@ -5837,7 +5859,7 @@ Services Details Area CSS
 }
 
 .services-details-information .download-file ul li a:hover {
-  color: #f64c67;
+  color: #D48166;
 }
 
 .services-details-information .download-file ul li:first-child {
@@ -5867,7 +5889,7 @@ Services Details Area CSS
   margin-bottom: 20px;
   border-bottom: 1px solid #eeeeee;
   position: relative;
-  color: #f64c67;
+  color: #D48166;
   font-weight: 500;
   font-size: 16px;
   padding-left: 35px;
@@ -5885,7 +5907,7 @@ Services Details Area CSS
 
 .services-details-information .services-contact-info ul li a {
   display: block;
-  color: #f64c67;
+  color: #D48166;
   margin-bottom: 8px;
   font-size: 14px;
 }
@@ -5895,14 +5917,14 @@ Services Details Area CSS
 }
 
 .services-details-information .services-contact-info ul li a:hover {
-  color: #f64c67;
+  color: #D48166;
 }
 
 .services-details-information .services-contact-info ul li .icon {
   position: absolute;
   left: 0;
   top: 3px;
-  color: #f64c67;
+  color: #D48166;
   font-size: 25px;
 }
 
@@ -5936,7 +5958,7 @@ Pagination Area CSS
 }
 
 .pagination-area .page-numbers.current, .pagination-area .page-numbers:hover, .pagination-area .page-numbers:focus {
-  background: #f64c67;
+  background: #D48166;
   color: #ffffff;
   -webkit-box-shadow: 0 2px 10px 0 #d8dde6;
           box-shadow: 0 2px 10px 0 #d8dde6;
@@ -5967,7 +5989,7 @@ Portfolio Details Area CSS
 .portfolio-details-desc .features-text h4 i {
   font-size: 16px;
   margin-right: 4px;
-  color: #f64c67;
+  color: #D48166;
 }
 
 .portfolio-details-desc h4 {
@@ -5980,7 +6002,7 @@ Portfolio Details Area CSS
   -webkit-box-shadow: 0px -10px 30px rgba(0, 0, 0, 0.1);
           box-shadow: 0px -10px 30px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
-  border-top: 3px solid #f64c67;
+  border-top: 3px solid #D48166;
   padding: 40px 30px;
 }
 
@@ -6020,14 +6042,14 @@ Portfolio Details Area CSS
 }
 
 .portfolio-details-information ul li a:hover {
-  color: #f64c67;
+  color: #D48166;
 }
 
 .portfolio-details-information ul li .icon {
   position: absolute;
   left: 0;
   top: 0;
-  color: #f64c67;
+  color: #D48166;
   font-size: 25px;
 }
 
@@ -6080,11 +6102,11 @@ Blog Details Area CSS
 }
 
 .blog-details-desc .article-content .entry-meta ul li a:hover {
-  color: linear-gradient(to right top, #fdb084, #ff9870, #ff7e62, #ff5f59, #ff3656);
+  color: #D48166;
 }
 
 .blog-details-desc .article-content .entry-meta ul li i {
-  color: linear-gradient(to right top, #fdb084, #ff9870, #ff7e62, #ff5f59, #ff3656);
+  color: #D48166;
   margin-right: 2px;
 }
 
@@ -6096,7 +6118,7 @@ Blog Details Area CSS
   width: 6px;
   height: 1px;
   background: -webkit-gradient(linear, left bottom, right top, from(#fdb084), color-stop(#ff9870), color-stop(#ff7e62), color-stop(#ff5f59), to(#ff3656));
-  background: linear-gradient(to right top, #fdb084, #ff9870, #ff7e62, #ff5f59, #ff3656);
+  background: #D48166;
 }
 
 .blog-details-desc .article-content .entry-meta ul li:last-child {
@@ -6161,7 +6183,7 @@ Blog Details Area CSS
   text-align: center;
   border-radius: 40px;
   background-color: #faf5f5;
-  color: #f64c67;
+  color: #D48166;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   display: inline-block;
@@ -6172,7 +6194,7 @@ Blog Details Area CSS
 }
 
 .blog-details-desc .article-content .features-list li:hover i {
-  background-color: #f64c67;
+  background-color: #D48166;
   color: #ffffff;
 }
 
@@ -6214,7 +6236,7 @@ Blog Details Area CSS
 }
 
 .blog-details-desc .article-footer .article-tags a:hover {
-  color: #f64c67;
+  color: #D48166;
 }
 
 .blog-details-desc .article-footer .article-share {
@@ -6244,7 +6266,7 @@ Blog Details Area CSS
 
 .blog-details-desc .article-footer .article-share .social li a {
   display: block;
-  color: #f64c67;
+  color: #D48166;
   width: 30px;
   height: 30px;
   line-height: 34px;
@@ -6255,19 +6277,19 @@ Blog Details Area CSS
 
 .blog-details-desc .article-footer .article-share .social li a:hover {
   color: #ffffff;
-  background-color: #f64c67;
+  background-color: #D48166;
   -webkit-transform: translateY(-2px);
           transform: translateY(-2px);
 }
 
 blockquote, .blockquote {
-  background-color: #fafafa;
+  background-color: #E6E2DD;
   padding: 30px !important;
   text-align: center;
   margin-top: 20px;
   margin-bottom: 20px;
-  border-left: 3px solid #f64c67;
-  border-right: 3px solid #f64c67;
+  border-left: 3px solid #D48166;
+  border-right: 3px solid #D48166;
   border-radius: 5px;
 }
 
@@ -6312,7 +6334,7 @@ blockquote p, .blockquote p {
 }
 
 .post-navigation .navigation-links .nav-previous a:hover {
-  color: #f64c67;
+  color: #D48166;
 }
 
 .post-navigation .navigation-links .nav-previous a:hover i {
@@ -6337,7 +6359,7 @@ blockquote p, .blockquote p {
 }
 
 .post-navigation .navigation-links .nav-next a:hover {
-  color: #f64c67;
+  color: #D48166;
 }
 
 .post-navigation .navigation-links .nav-next a:hover i {
@@ -6399,8 +6421,8 @@ blockquote p, .blockquote p {
 
 .comments-area .comment-body .reply a:hover {
   color: #ffffff;
-  background-color: #f64c67;
-  border-color: #f64c67;
+  background-color: #D48166;
+  border-color: #D48166;
 }
 
 .comments-area .comment-author {
@@ -6433,7 +6455,7 @@ blockquote p, .blockquote p {
 }
 
 .comments-area .comment-metadata a:hover {
-  color: #f64c67;
+  color: #D48166;
 }
 
 .comments-area .comment-respond {
@@ -6552,7 +6574,7 @@ blockquote p, .blockquote p {
 
 .comments-area .comment-respond .form-submit input {
   background: -webkit-gradient(linear, left bottom, right top, from(#fdb084), color-stop(#ff9870), color-stop(#ff7e62), color-stop(#ff5f59), to(#ff3656));
-  background: linear-gradient(to right top, #fdb084, #ff9870, #ff7e62, #ff5f59, #ff3656);
+  background: #D48166;
   border: none;
   color: #ffffff;
   padding: 10px 30px 10px;
@@ -6594,7 +6616,7 @@ Widget Sidebar CSS
   height: 1px;
   bottom: -1px;
   background: -webkit-gradient(linear, left bottom, right top, from(#fdb084), color-stop(#ff9870), color-stop(#ff7e62), color-stop(#ff5f59), to(#ff3656));
-  background: linear-gradient(to right top, #fdb084, #ff9870, #ff7e62, #ff5f59, #ff3656);
+  background: #D48166;
 }
 
 .widget-area .widget_search {
@@ -6630,13 +6652,13 @@ Widget Sidebar CSS
 }
 
 .widget-area .widget_search form .search-field:focus {
-  border-color: #f64c67;
+  border-color: #D48166;
 }
 
 .widget-area .widget_search form button {
   border: none;
   background-color: #eeeeee;
-  color: #f64c67;
+  color: #D48166;
   height: 40px;
   width: 40px;
   position: absolute;
@@ -6660,7 +6682,7 @@ Widget Sidebar CSS
 }
 
 .widget-area .widget_search form button:hover, .widget-area .widget_search form button:focus {
-  background-color: #f64c67;
+  background-color: #D48166;
   color: #ffffff;
 }
 
@@ -6733,7 +6755,7 @@ Widget Sidebar CSS
 
 .widget-area .widget_spix_posts_thumb .item .info span {
   display: block;
-  color: #f64c67;
+  color: #D48166;
   margin-top: -2px;
   margin-bottom: 5px;
   font-size: 14px;
@@ -6753,7 +6775,7 @@ Widget Sidebar CSS
 }
 
 .widget-area .widget_spix_posts_thumb .item .info .title a:hover {
-  color: #f64c67;
+  color: #D48166;
 }
 
 .widget-area .widget_categories {
@@ -6784,7 +6806,7 @@ Widget Sidebar CSS
 
 .widget-area .widget_categories ul li::before {
   background: -webkit-gradient(linear, left bottom, right top, from(#fdb084), color-stop(#ff9870), color-stop(#ff7e62), color-stop(#ff5f59), to(#ff3656));
-  background: linear-gradient(to right top, #fdb084, #ff9870, #ff7e62, #ff5f59, #ff3656);
+  background: #D48166;
   height: 8px;
   width: 8px;
   content: '';
@@ -6800,7 +6822,7 @@ Widget Sidebar CSS
 }
 
 .widget-area .widget_categories ul li a:hover {
-  color: #f64c67;
+  color: #D48166;
 }
 
 .widget-area .widget_tag_cloud {
@@ -6828,7 +6850,7 @@ Widget Sidebar CSS
 
 .widget-area .tagcloud a:hover, .widget-area .tagcloud a:focus {
   color: #ffffff;
-  background-color: #f64c67;
+  background-color: #D48166;
 }
 
 .widget-area .price_list_widget {
@@ -6855,7 +6877,7 @@ Widget Sidebar CSS
 .widget-area .price_list_widget .form-group .form-control:focus {
   outline: 0;
   background-color: #ffffff;
-  border-color: #f64c67;
+  border-color: #D48166;
   -webkit-box-shadow: none;
           box-shadow: none;
 }
@@ -6925,7 +6947,7 @@ Widget Sidebar CSS
 
 .widget-area .widget_popular_products .item .info span {
   display: block;
-  color: #f64c67;
+  color: #D48166;
   text-transform: uppercase;
   margin-top: -5px;
   margin-bottom: 6px;
@@ -6944,7 +6966,7 @@ Widget Sidebar CSS
 }
 
 .widget-area .widget_popular_products .item .info .title a:hover {
-  color: #f64c67;
+  color: #D48166;
 }
 
 .widget-area .widget_popular_products .item .info .rating {
@@ -6976,7 +6998,7 @@ Products Area CSS
 .spix-grid-sorting .ordering label {
   display: inline-block;
   margin-bottom: 0;
-  color: #f64c67;
+  color: #D48166;
   margin-right: 5px;
   font-weight: 600;
 }
@@ -7026,7 +7048,7 @@ Products Area CSS
 }
 
 .spix-grid-sorting .ordering .nice-select .list .option:hover {
-  background-color: #f64c67 !important;
+  background-color: #D48166 !important;
   color: #ffffff;
 }
 
@@ -7038,7 +7060,7 @@ Products Area CSS
 }
 
 .spix-grid-sorting .ordering .nice-select:hover {
-  border-color: #f64c67;
+  border-color: #D48166;
   background-color: transparent;
 }
 
@@ -7081,7 +7103,7 @@ Products Area CSS
 }
 
 .single-products-box .products-content h3 a:hover {
-  color: #f64c67;
+  color: #D48166;
 }
 
 .single-products-box .products-content .price {
@@ -7089,7 +7111,7 @@ Products Area CSS
   -webkit-transition: 0.5s;
   transition: 0.5s;
   font-weight: 600;
-  color: #f64c67;
+  color: #D48166;
 }
 
 .single-products-box .products-content .price .old-price {
@@ -7127,7 +7149,7 @@ Products Area CSS
 }
 
 .single-products-box .products-content .add-to-cart:hover {
-  color: #f64c67;
+  color: #D48166;
 }
 
 .single-products-box:hover .products-content .price {
@@ -7193,11 +7215,11 @@ Cart Area CSS
 }
 
 .cart-table table tbody tr td.product-name a:hover {
-  color: #f64c67;
+  color: #D48166;
 }
 
 .cart-table table tbody tr td.product-subtotal .remove {
-  color: #f64c67;
+  color: #D48166;
   float: right;
   position: relative;
   top: -1px;
@@ -7233,12 +7255,12 @@ Cart Area CSS
 }
 
 .cart-table table tbody tr td.product-quantity .input-counter span:hover {
-  color: #f64c67;
+  color: #D48166;
 }
 
 .cart-table table tbody tr td.product-quantity .input-counter input {
   height: 45px;
-  color: #f64c67;
+  color: #D48166;
   outline: 0;
   display: block;
   border: none;
@@ -7252,19 +7274,19 @@ Cart Area CSS
 }
 
 .cart-table table tbody tr td.product-quantity .input-counter input::-webkit-input-placeholder {
-  color: #f64c67;
+  color: #D48166;
 }
 
 .cart-table table tbody tr td.product-quantity .input-counter input:-ms-input-placeholder {
-  color: #f64c67;
+  color: #D48166;
 }
 
 .cart-table table tbody tr td.product-quantity .input-counter input::-ms-input-placeholder {
-  color: #f64c67;
+  color: #D48166;
 }
 
 .cart-table table tbody tr td.product-quantity .input-counter input::placeholder {
-  color: #f64c67;
+  color: #D48166;
 }
 
 .cart-table table tbody tr td.product-subtotal {
@@ -7358,7 +7380,7 @@ Checkout Area CSS
   color: #202647;
   margin-right: 2px;
   font-size: 18px;
-  color: #f64c67;
+  color: #D48166;
   position: relative;
   top: 2px;
 }
@@ -7377,7 +7399,7 @@ Checkout Area CSS
 }
 
 .user-actions span a:hover, .user-actions span a:focus {
-  color: #f64c67;
+  color: #D48166;
 }
 
 .billing-details .title {
@@ -7393,7 +7415,7 @@ Checkout Area CSS
   content: '';
   position: absolute;
   background: -webkit-gradient(linear, left bottom, right top, from(#fdb084), color-stop(#ff9870), color-stop(#ff7e62), color-stop(#ff5f59), to(#ff3656));
-  background: linear-gradient(to right top, #fdb084, #ff9870, #ff7e62, #ff5f59, #ff3656);
+  background: #D48166;
   bottom: -1px;
   left: 0;
   width: 50px;
@@ -7443,7 +7465,7 @@ Checkout Area CSS
 }
 
 .billing-details .form-group .nice-select .list .option:hover {
-  background-color: #f64c67 !important;
+  background-color: #D48166 !important;
   color: #ffffff;
 }
 
@@ -7464,7 +7486,7 @@ Checkout Area CSS
 }
 
 .billing-details .form-group .form-control:focus {
-  border-color: #f64c67;
+  border-color: #D48166;
   outline: 0;
   -webkit-box-shadow: none;
           box-shadow: none;
@@ -7507,7 +7529,7 @@ Checkout Area CSS
   content: '';
   position: absolute;
   background: -webkit-gradient(linear, left bottom, right top, from(#fdb084), color-stop(#ff9870), color-stop(#ff7e62), color-stop(#ff5f59), to(#ff3656));
-  background: linear-gradient(to right top, #fdb084, #ff9870, #ff7e62, #ff5f59, #ff3656);
+  background: #D48166;
   bottom: -1px;
   left: 0;
   width: 50px;
@@ -7547,7 +7569,7 @@ Checkout Area CSS
 }
 
 .order-details .order-table table tbody tr td.product-name a:hover {
-  color: linear-gradient(to right top, #fdb084, #ff9870, #ff7e62, #ff5f59, #ff3656);
+  color: #D48166;
 }
 
 .order-details .order-table table tbody tr td.order-subtotal span, .order-details .order-table table tbody tr td.order-shipping span, .order-details .order-table table tbody tr td.total-price span {
@@ -7598,7 +7620,7 @@ Checkout Area CSS
   content: '';
   width: 12px;
   height: 12px;
-  background: #f64c67;
+  background: #D48166;
   position: absolute;
   top: 8px;
   left: 4px;
@@ -7692,8 +7714,8 @@ Product Details Area CSS
 }
 
 .product-details-desc .product-review .rating-count:hover {
-  color: #f64c67;
-  border-color: #f64c67;
+  color: #D48166;
+  border-color: #D48166;
   text-decoration: none;
 }
 
@@ -7732,7 +7754,7 @@ Product Details Area CSS
 }
 
 .product-details-desc .product-add-to-cart .input-counter span:hover {
-  color: #f64c67;
+  color: #D48166;
 }
 
 .product-details-desc .product-add-to-cart .input-counter input {
@@ -7767,9 +7789,9 @@ Product Details Area CSS
 .product-details-desc .product-add-to-cart .default-btn {
   position: relative;
   padding: 12px 30px;
-  background-color: #f64c67;
+  background-color: #D48166;
   color: #ffffff;
-  border: 1px solid #f64c67;
+  border: 1px solid #D48166;
   cursor: pointer;
 }
 
@@ -7779,7 +7801,7 @@ Product Details Area CSS
 
 .product-details-desc .product-add-to-cart .default-btn:hover {
   background-color: #ffffff;
-  color: #f64c67;
+  color: #D48166;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -7866,12 +7888,12 @@ Product Details Area CSS
 }
 
 .product-details-desc .buy-checkbox-btn .cbx:hover span:first-child {
-  border-color: #f64c67;
+  border-color: #D48166;
 }
 
 .product-details-desc .buy-checkbox-btn .inp-cbx:checked + .cbx span:first-child {
-  background: #f64c67;
-  border-color: #f64c67;
+  background: #D48166;
+  border-color: #D48166;
   -webkit-animation: wave 0.4s ease;
           animation: wave 0.4s ease;
 }
@@ -7904,7 +7926,7 @@ Product Details Area CSS
 }
 
 .product-details-desc .buy-checkbox-btn .btn-light:hover {
-  background-color: #f64c67;
+  background-color: #D48166;
   color: #ffffff;
 }
 
@@ -7936,16 +7958,16 @@ Product Details Area CSS
   height: 35px;
   line-height: 35px;
   border-radius: 50%;
-  background-color: #f64c67;
+  background-color: #D48166;
   color: #ffffff;
-  border: 1px solid #f64c67;
+  border: 1px solid #D48166;
   text-align: center;
   font-size: 18px;
   margin-left: 2px;
 }
 
 .product-details-desc .products-share .social li a:hover, .product-details-desc .products-share .social li a:focus {
-  color: linear-gradient(to right top, #fdb084, #ff9870, #ff7e62, #ff5f59, #ff3656);
+  color: #D48166;
   background-color: transparent;
 }
 
@@ -8026,14 +8048,14 @@ Product Details Area CSS
 
 .products-details-tab .tabs li a:hover, .products-details-tab .tabs li a:focus {
   color: #ffffff;
-  background-color: #f64c67;
-  border-color: #f64c67;
+  background-color: #D48166;
+  border-color: #D48166;
 }
 
 .products-details-tab .tabs li.current a {
   color: #ffffff;
-  background-color: #f64c67;
-  border-color: #f64c67;
+  background-color: #D48166;
+  border-color: #D48166;
 }
 
 .products-details-tab .tabs li:last-child {
@@ -8092,17 +8114,17 @@ Product Details Area CSS
   right: 0;
   bottom: 0;
   padding: 8px 20px;
-  background-color: #f64c67;
+  background-color: #D48166;
   color: #ffffff;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   font-size: 15px;
-  border: 1px solid #f64c67;
+  border: 1px solid #D48166;
 }
 
 .products-details-tab .tab_content .tabs_item .products-details-tab-content .product-review-form .review-title .default-btn:hover {
   background-color: #ffffff;
-  color: #f64c67;
+  color: #D48166;
   text-decoration: none;
 }
 
@@ -8158,7 +8180,7 @@ Product Details Area CSS
 }
 
 .products-details-tab .tab_content .tabs_item .products-details-tab-content .product-review-form .review-comments .review-item .review-report-link:hover {
-  color: #f64c67;
+  color: #D48166;
 }
 
 .products-details-tab .tab_content .tabs_item .products-details-tab-content .product-review-form .review-form {
@@ -8188,7 +8210,7 @@ Product Details Area CSS
 
 .products-details-tab .tab_content .tabs_item .products-details-tab-content .product-review-form .review-form form .form-group .form-control:focus {
   background-color: transparent;
-  border: 1px solid #f64c67;
+  border: 1px solid #D48166;
   outline: 0;
   -webkit-box-shadow: none;
           box-shadow: none;
@@ -8259,7 +8281,7 @@ Partner Area CSS
 Footer Area CSS
 =================================================*/
 .footer-area {
-  background-color: #f5f3f3;
+  background-color: #fff;
 }
 
 .single-footer-widget {
@@ -8301,16 +8323,16 @@ Footer Area CSS
   height: 35px;
   line-height: 40px;
   border-radius: 50%;
-  background-color: linear-gradient(to right top, #fdb084, #ff9870, #ff7e62, #ff5f59, #ff3656);
+  background-color: #D48166;
   color: #ffffff;
-  border: 1px solid linear-gradient(to right top, #fdb084, #ff9870, #ff7e62, #ff5f59, #ff3656);
+  border: 1px solid #D48166;
   text-align: center;
   font-size: 18px;
 }
 
 .single-footer-widget .social li a:hover, .single-footer-widget .social li a:focus {
-  color: linear-gradient(to right top, #fdb084, #ff9870, #ff7e62, #ff5f59, #ff3656);
-  background-color: #f64c67;
+  color: #D48166;
+  background-color: #D48166;
 }
 
 .single-footer-widget .social li a.facebook {
@@ -8321,7 +8343,7 @@ Footer Area CSS
 
 .single-footer-widget .social li a.facebook:hover, .single-footer-widget .social li a.facebook:focus {
   color: #ffffff;
-  background-color: #f64c67;
+  background-color: #D48166;
 }
 
 .single-footer-widget .social li a.twitter {
@@ -8332,7 +8354,7 @@ Footer Area CSS
 
 .single-footer-widget .social li a.twitter:hover, .single-footer-widget .social li a.twitter:focus {
   color: #ffffff;
-  background-color: #f64c67;
+  background-color: #D48166;
 }
 
 .single-footer-widget .social li a.linkedin {
@@ -8343,7 +8365,7 @@ Footer Area CSS
 
 .single-footer-widget .social li a.linkedin:hover, .single-footer-widget .social li a.linkedin:focus {
   color: #ffffff;
-  background-color: #f64c67;
+  background-color: #D48166;
 }
 
 .single-footer-widget .social li a.pinterest {
@@ -8354,13 +8376,13 @@ Footer Area CSS
 
 .single-footer-widget .social li a.pinterest:hover, .single-footer-widget .social li a.pinterest:focus {
   color: #ffffff;
-  background-color: #f64c67;
+  background-color: #D48166;
 }
 
 .single-footer-widget h3 {
   font-size: 25px;
   margin-bottom: 25px;
-  color: #f64c67;
+  color: #D48166;
 }
 
 .single-footer-widget .quick-links {
@@ -8382,7 +8404,7 @@ Footer Area CSS
 }
 
 .single-footer-widget .quick-links li a:hover {
-  color: #f64c67;
+  color: #D48166;
 }
 
 .single-footer-widget .quick-links li a:hover::before {
@@ -8399,7 +8421,7 @@ Footer Area CSS
   -webkit-transition: 0.5s;
   transition: 0.5s;
   background: -webkit-gradient(linear, left bottom, right top, from(#fdb084), color-stop(#ff9870), color-stop(#ff7e62), color-stop(#ff5f59), to(#ff3656));
-  background: linear-gradient(to right top, #fdb084, #ff9870, #ff7e62, #ff5f59, #ff3656);
+  background: #D48166;
 }
 
 .single-footer-widget .quick-links li:last-child {
@@ -8424,7 +8446,7 @@ Footer Area CSS
   left: 0;
   top: 2px;
   font-size: 22px;
-  color: #f64c67;
+  color: #D48166;
 }
 
 .single-footer-widget .footer-contact-info li span {
@@ -8444,7 +8466,7 @@ Footer Area CSS
 }
 
 .single-footer-widget .footer-contact-info li a:hover {
-  color: #f64c67;
+  color: #D48166;
 }
 
 .single-footer-widget .footer-contact-info li a:hover::before {
@@ -8461,7 +8483,7 @@ Footer Area CSS
   -webkit-transition: 0.5s;
   transition: 0.5s;
   background: -webkit-gradient(linear, left bottom, right top, from(#fdb084), color-stop(#ff9870), color-stop(#ff7e62), color-stop(#ff5f59), to(#ff3656));
-  background: linear-gradient(to right top, #fdb084, #ff9870, #ff7e62, #ff5f59, #ff3656);
+  background: #D48166;
 }
 
 .single-footer-widget .footer-contact-info li:last-child {
@@ -8486,7 +8508,7 @@ Copy Right Area CSS
 }
 
 .copyright-area .copyright-area-content p a:hover {
-  color: #f64c67;
+  color: #D48166;
 }
 
 .copyright-area .copyright-area-content ul {
@@ -8509,7 +8531,7 @@ Copy Right Area CSS
 }
 
 .copyright-area .copyright-area-content ul li a:hover {
-  color: #f64c67;
+  color: #D48166;
 }
 
 .copyright-area .copyright-area-content ul li::before {
@@ -8520,7 +8542,7 @@ Copy Right Area CSS
   width: 1px;
   height: 14px;
   background: -webkit-gradient(linear, left bottom, right top, from(#fdb084), color-stop(#ff9870), color-stop(#ff7e62), color-stop(#ff5f59), to(#ff3656));
-  background: linear-gradient(to right top, #fdb084, #ff9870, #ff7e62, #ff5f59, #ff3656);
+  background: #D48166;
 }
 
 .copyright-area .copyright-area-content ul li:last-child {
@@ -8580,7 +8602,7 @@ Go Top CSS
 }
 
 .go-top:hover {
-  background: #f64c67;
+  background: #D48166;
   color: #ffffff;
   -webkit-transition: 0.5s;
   transition: 0.5s;
