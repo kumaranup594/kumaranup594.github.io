@@ -7547,6 +7547,30 @@ Checkout Area CSS
   text-align: center;
 }
 
+
+
+
+
+
+.pdf-bx iframe{
+    width: 100%;
+    height: 500px;
+    border: 2px solid black;
+  }
+
+
+.pdf-bx2 object{
+  margin: 100px 0;
+  width: 100%;
+  height: 500px;
+  border: 2px solid black;
+}
+
+
+
+
+
+
 /*================================================
 Product Details Area CSS
 =================================================*/
