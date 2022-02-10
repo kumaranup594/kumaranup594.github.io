@@ -35,9 +35,6 @@
 
 
 
-    <style>
-        .pdfobject-container { height: 30rem; border: 1rem solid rgba(0,0,0,.1); }
-        </style>
 </head>
 <body>
 
@@ -47,6 +44,8 @@
         <div class="box"></div>
     </div>
 </div>
+
+<div id="root">
 
 <!--navbar-->
 
@@ -929,78 +928,6 @@
 </div>
 
 
-
-
-<!--pdf-->
-
-<div class="container pdf-bx">
-    <!-- <iframe src="assets/OmuniD.pdf" frameborder="0"></iframe> -->
-
-
-    <div id="example1"></div>
-
-     <a href="https://docs.google.com/viewer?url=https://github.com/kumaranup594/kumaranup594.github.io/raw/main/dimi/landing-3/assets/OmuniD.pdf" target="_blank">
-        hiii</a> 
-</div>
-
-
-
-<div id="pdf-js-viewer">
-    <!-- <iframe width="100%" height="500" src="assets/OmuniD.pdf" type="application/pdf"></iframe>
-
-     <iframe id="pdf-js-viewer" 
-      
-     
-    src="http://docs.google.com/gview?url=https://github.com/kumaranup594/kumaranup594.github.io/raw/main/dimi/landing-3/assets/OmuniD.pdf&embedded=true"
-    title="webviewer" frameborder="0" width="500" height="600"></iframe> -->
-</div> 
-
-
-
-src="/web/viewer.html?file=%2Fpdf.js%2Fweb%2Fcompressed.tracemonkey-pldi-09.pdf" 
-     
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-    Launch demo modal
-</button>
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-
-  <iframe 
-    src="https://drive.google.com/file/d/14AjYB5jwprtCOVO2Uzy41oEcibELJkul/view?usp=sharing" 
-width="100%" height="480"></iframe> 
-
-
-<a href="https://github.com/kumaranup594/kumaranup594.github.io/raw/main/dimi/landing-3/assets/OmuniD.pdf">
-    example</a>
-
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Save changes</button>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-<button onclick="savePdf()">Make PDF and save</button>
-
-
-
-
-
-
-
-
-
 <!--footer-->
 
 <div class="footer-area pt-100 pb-70">
@@ -1082,6 +1009,8 @@ width="100%" height="480"></iframe>
 </div>
 
 
+</div>
+
 
 <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="assets/js/jquery.min.js"></script>
 
@@ -1111,24 +1040,6 @@ width="100%" height="480"></iframe>
 
 <script src="assets/js/main.js"></script>\
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-
-<script>
-      var html2pdf;
-      var _window;
-      var popup;
-      var target = document.getElementById('target');
-      var iframe = document.getElementById('iframe');
-      var ready = document.getElementById('ready');
-      var selector = document.getElementById('selector');
-
-    function savePdf () {
-        _window.focus();
-        var element = _window.document.querySelector(selector.value);
-        html2pdf().from(element).save();
-      }
-</script>    
 
 </body>
 
